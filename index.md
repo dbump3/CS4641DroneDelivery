@@ -1,24 +1,24 @@
-### Summary
+## Summary
+
+<img src="img/infographic.png"/>
+
+## Introduction & Background
 
 
 
-### Introduction & Background
+## Methods
 
 
 
-### Methods
+## Results
 
 
 
-### Results
+## Discussion
 
 
 
-### Discussion
-
-
-
-### References
+## References
 
 
 
