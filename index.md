@@ -23,6 +23,6 @@ Our stretch goal is to use a Graphical Neural Network (GNN), an uncommon approac
 
 
 ## References
-
+[1] Scarselli, F., Gori, M., Tsoi, A. C., Hagenbuchner, M., & Monfardini, G. (2008). The graph neural network model. _IEEE Transactions on Neural Networks_, 20(1), 61-80.
 
 
