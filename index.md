@@ -3,7 +3,7 @@
 <img src="img/infographic.png"/>
 
 ## Introduction & Background
-This problem is a current [Kaggle competition]https://www.kaggle.com/c/hashcode-drone-delivery/overview at time of attempting this project. 
+This problem is a current [Kaggle competition](https://www.kaggle.com/c/hashcode-drone-delivery/overview) at time of attempting this project. 
 
 
 ## Methods
