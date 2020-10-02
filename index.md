@@ -3,8 +3,11 @@
 <img src="img/infographic.png"/>
 
 ## Introduction & Background
-This problem is a current [Kaggle competition](https://www.kaggle.com/c/hashcode-drone-delivery/overview) at time of attempting this project. 
+Drones and drone swarms are an emerging and increasingly domain of robotics, computer vision, and, in our case, machine learning. One of the many applications of drones is in delivery of products to customers. Because of the fact drones are unmanned, not subject to traffic, and more cost effective, they are a more ideal choice than the current method of delivery, trucks. However, drones are a finite resource and have a small maximum load that they can carry. This means that the process for picking up packages and delivering them to customers in a short amount of time is paramount in the transition from delivery trucks to an all-drone delivery system. Our project aims to try and advance the scheduling algorithm these drones use to ensure that deliveries are completed in the the most time-effective manner through the use of machine learning.
 
+The goal of our project can be summarized as follows: given a set number of drones, the location of customers and warehouses, and a list of products available at warehouses and customers who want them, find the set of orders for the drones that completes all deliveries in the shortest amount of time possible.
+
+This problem is an in-progress [Kaggle competition](https://www.kaggle.com/c/hashcode-drone-delivery/overview) at the time of attempting this project.
 
 ## Methods
 
