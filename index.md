@@ -19,7 +19,7 @@ Drones and drone swarms are an emerging and increasingly researched domain of ro
 
 The overall goal of our project can be summarized as follows: given a set number of drones, the location of customers and warehouses, and a list of products available at warehouses and customers who want them, find the set of orders for the drones that completes all deliveries in the shortest amount of time possible.
 
-This problem is an in-progress [Kaggle competition](https://www.kaggle.com/c/hashcode-drone-delivery/overview) at the time of attempting this project.
+This problem is an in-progress [Kaggle competition](https://www.kaggle.com/c/hashcode-drone-delivery/overview)[1] at the time of attempting this project.
 
 ## Methods
 In general, we will have at least two general approaches solving the problem. One way is using only the necessary drone commands: Load and Deliver. Then, we can factor in the optional commands as Kaggle lists in the [instructions](https://www.kaggle.com/c/hashcode-drone-delivery/data?select=hashcode_delivery_instructions.pdf): Unload and Wait. These extra commands might further increase efficiency. 
@@ -28,7 +28,7 @@ In general, we will have at least two general approaches solving the problem. On
 We expect to first use Q-Learning to solve the problem through reinforcement learning. In this case, the drones are our agents, and the actions are listed in the [Kaggle instructions](https://www.kaggle.com/c/hashcode-drone-delivery/data?select=hashcode_delivery_instructions.pdf). We intend to reward states that have products closer to customers. This would mean a drone carrying a load to a warehouse closer to a customer would increase the reward, and of course, delivering a product to a customer would increase reward further. There are cases where a drone should not only be completing a delivery in every flight. For example, a drone could pick up a side product, drop it off to another warehouse on the way to its main customer, then return to that closer warehouse later and pick up all the product necessary for this second order. 
 
 ### Graphical Neural Network (GNN)
-Our stretch goal is to use a Graphical Neural Network (GNN)[1], an uncommon approach. This implementation will be very difficult, which is why we left it as a stretch goal, however, we believe it is an extremely interesting and novel approach to the problem that may produce better results than typical approaches. One property we hope to take advantage of is the how GNNs are stable in the face of graph perturbations [2].
+Our stretch goal is to use a Graphical Neural Network (GNN)[2], an uncommon approach. This implementation will be very difficult, which is why we left it as a stretch goal, however, we believe it is an extremely interesting and novel approach to the problem that may produce better results than typical approaches. One property we hope to take advantage of is the how GNNs are stable in the face of graph perturbations [3].
 
 ## Results
 Many people have offered many solutions to this problem and ones of a similar nature. We think it is unlikely that we will be able to surpass the best of these. That being said, we believe that our approach to the problem is unique and may open new possibilities in terms of how people think about similar problems. Additionally, it will provide valuable insight into topics that have gone uncovered in class and increase our teams understanding of machine learning in a broader sense, our ultimate goal.
@@ -41,7 +41,9 @@ Arguably the largest assumption is that the entire state of the simulation is kn
 
 
 ## References
-[1] Scarselli, F., Gori, M., Tsoi, A. C., Hagenbuchner, M., & Monfardini, G. (2008). The graph neural network model. _IEEE Transactions on Neural Networks_, 20(1), 61-80.
+[1] Kaggle. (2020). Hash Code Archive: Drone Delivery. Retrieved from https://www.kaggle.com/c/hashcode-drone-delivery/data
 
-[2] Gama, F., Bruna, J., & Ribeiro, A. (2019). Stability properties of graph neural networks. _arXiv preprint arXiv_:1905.04497.
+[2] Scarselli, F., Gori, M., Tsoi, A. C., Hagenbuchner, M., & Monfardini, G. (2008). The graph neural network model. _IEEE Transactions on Neural Networks_, 20(1), 61-80.
+
+[3] Gama, F., Bruna, J., & Ribeiro, A. (2019). Stability properties of graph neural networks. _arXiv preprint arXiv_:1905.04497.
 
