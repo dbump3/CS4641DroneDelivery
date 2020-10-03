@@ -7,6 +7,7 @@
 * [Methods](#methods)
 * [Results](#results)
 * [Discussion](#discussion)
+  * [Future Work]()
 * [References](#references)
 
 ## Summary
@@ -30,11 +31,13 @@ We expect to first use Q-Learning to solve the problem through reinforcement lea
 Our stretch goal is to use a Graphical Neural Network (GNN)[1], an uncommon approach. This implementation will be very difficult, which is why we left it as a stretch goal, however, we believe it is an extremely interesting and novel approach to the problem that may produce better results than typical approaches. One property we hope to take advantage of is the how GNNs are stable in the face of graph perturbations [2].
 
 ## Results
-
 Many people have offered many solutions to this problem and ones of a similar nature. We think it is unlikely that we will be able to surpass the best of these. That being said, we believe that our approach to the problem is unique and may open new possibilities in terms of how people think about similar problems. Additionally, it will provide valuable insight into topics that have gone uncovered in class and increase our teams understanding of machine learning in a broader sense, our ultimate goal.
 
 ## Discussion
 Our main goal is to be competitive in the competition, which means maximizing drone flights to complete all of the orders in the least amount of time. The solution to this problem is significant because it represents a best-case of what could happen in real-world package delivery via drones. Extra variables obviously need to be factored in before this general algorithm is adopted, like drone battery life, change in velocity while carrying a load, altitude of drones to avoid collisions, whether the drones can communicate with every other drone to know the entire simulation state, etc. However, no real-world application to this problem would be able to be better than the best answer to this simulation, which is why this problem is significant. If the delivery times using drones based on results from this simulation are not feasible in any way, there is no sense in applying drones commercially (just yet). Also, because this simulation represents a best-case, it could be compared to other algorithms that factor in more real-world variables, and this simulation could be seen as a guideline or goal.
+
+### Future Work
+Arguably the largest assumption is that the entire state of the simulation is known at all times. Giving the drones a range within which they can communicate with neighbors would be more realistic, and a better application in general for GNNs.
 
 
 ## References
