@@ -30,7 +30,7 @@ Our stretch goal is to use a Graphical Neural Network (GNN), an uncommon approac
 
 ## Results
 
-
+Many people have offered many solutions to this problem and ones of a similar nature. We think it is unlikely that we will be able to surpass the best of these. That being said, we believe that our approach to the problem is unique and may open new possibilities in terms of how people think about similar problems. Additionally, it will provide valuable insight into topics that have gone uncovered in class and increase our teams understanding of machine learning in a broader sense, our ultimate goal.
 
 ## Discussion
 
