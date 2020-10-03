@@ -21,6 +21,7 @@ The overall goal of our project can be summarized as follows: given a set number
 This problem is an in-progress [Kaggle competition](https://www.kaggle.com/c/hashcode-drone-delivery/overview) at the time of attempting this project.
 
 ## Methods
+In general, we will have at least two general approaches solving the problem. One way is using only the necessary drone commands: Load and Deliver. Then, we can factor in the optional commands as Kaggle lists in the [instructions](https://www.kaggle.com/c/hashcode-drone-delivery/data?select=hashcode_delivery_instructions.pdf): Unload and Wait. These extra commands might further increase efficiency. 
 
 ### Q-Learning
 We expect to first use Q-Learning to solve the problem through reinforcement learning. In this case, the drones are our agents, and the actions are listed in the [Kaggle instructions](https://www.kaggle.com/c/hashcode-drone-delivery/data?select=hashcode_delivery_instructions.pdf). We intend to reward states that have products closer to customers. This would mean a drone carrying a load to a warehouse closer to a customer would increase the reward, and of course, delivering a product to a customer would increase reward further. There are cases where a drone should not only be completing a delivery in every flight. For example, a drone could pick up a side product, drop it off to another warehouse on the way to its main customer, then return to that closer warehouse later and pick up all the product necessary for this second order. 
@@ -33,7 +34,7 @@ Our stretch goal is to use a Graphical Neural Network (GNN)[1], an uncommon appr
 Many people have offered many solutions to this problem and ones of a similar nature. We think it is unlikely that we will be able to surpass the best of these. That being said, we believe that our approach to the problem is unique and may open new possibilities in terms of how people think about similar problems. Additionally, it will provide valuable insight into topics that have gone uncovered in class and increase our teams understanding of machine learning in a broader sense, our ultimate goal.
 
 ## Discussion
-
+Our main goal is to be competitive in the competition, which means maximizing drone flights to complete all of the orders in the least amount of time. The solution to this problem is significant because it represents a best-case of what could happen in real-world package delivery via drones. Extra variables obviously need to be factored in before this general algorithm is adopted, like drone battery life, change in velocity while carrying a load, altitude of drones to avoid collisions, whether the drones can communicate with every other drone to know the entire simulation state, etc. However, no real-world application to this problem would be able to be better than the best answer to this simulation, which is why this problem is significant. If the delivery times using drones based on results from this simulation are not feasible in any way, there is no sense in applying drones commercially (just yet). Also, because this simulation represents a best-case, it could be compared to other algorithms that factor in more real-world variables, and this simulation could be seen as a guideline or goal.
 
 
 ## References
