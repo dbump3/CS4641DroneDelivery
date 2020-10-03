@@ -1,3 +1,14 @@
+## Table of Contents
+
+* [Summary](#summary)
+* [Introduction & Background](#introduction--background)
+  * [Q-Learning](#q-learning)
+  * [Graphical Neural Network (GNN)](#graphical-neural-network-gnn)
+* [Methods](#methods)
+* [Results](#results)
+* [Discussion](#discussion)
+* [References](#references)
+
 ## Summary
 
 <img src="img/infographic.png"/>
