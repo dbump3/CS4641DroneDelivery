@@ -38,5 +38,5 @@ Many people have offered many solutions to this problem and ones of a similar na
 
 ## References
 [1] Scarselli, F., Gori, M., Tsoi, A. C., Hagenbuchner, M., & Monfardini, G. (2008). The graph neural network model. _IEEE Transactions on Neural Networks_, 20(1), 61-80.
-
+[2] Gama, F., Bruna, J., & Ribeiro, A. (2019). Stability properties of graph neural networks. _arXiv preprint arXiv_:1905.04497.
 
